@@ -1,0 +1,92 @@
+﻿.report.menu
+{
+    height: 32px;
+    position: absolute;
+    right: 1em;
+    border: 1px solid #2c93c8;
+    background: #e1e5e5;
+    padding: 0.25em;
+    -moz-box-shadow: 2px 2px 2px #000;
+    -webkit-box-shadow: 2px 2px 2px #000;
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(color=black, direction=90, strength=3)
+        progid:DXImageTransform.Microsoft.Shadow(color=black, direction=180, strength=3);
+}
+
+.report.table
+{
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border-collapse: separate;
+    border: 1px solid #acb1b2;    
+}
+.report.table td
+{
+    padding: 2px;
+    border: 1px solid #acb1b2;
+}
+.report.table th
+{
+    padding: 4px 4px;
+    color: #fff;
+    background: #2c93c8 url(grd_head.png) repeat-x top;
+    border: 1px solid #acb1b2;
+    font-size: 0.9em;
+}
+.report.table .alt
+{
+    background: #e7f0ff url(grd_alt.png) repeat-x top;
+}
+.report.table .pgr
+{
+    background: #e1e5e5;
+    color: #000;
+}
+.report.table .pgr table
+{
+    margin: 5px 0;
+}
+.report.table .pgr td
+{
+    padding: 0 6px;
+    border: 0;
+    font-weight: bold;
+    color: #000;
+    line-height: 12px;
+}
+
+.pgr span
+{
+    color: #fff;
+    background: #2c93c8;
+    padding: 2px 6px;
+}
+
+.report.merged
+{
+    vertical-align: middle !important;
+}
+
+.grid tr.parent
+{
+    background-color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.grid tr.parent td
+{
+    padding-left: 20px;    
+}
+.grid tr.parent.closed
+{
+    background-image: url('../img/icons/icnGridClosed.png');
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+}
+.grid tr.parent.open
+{
+    background-image: url('../img/icons/icnGridOpened.png');
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+}

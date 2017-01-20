@@ -1,0 +1,16 @@
+﻿.menu
+{
+    margin-top: -1px;
+    height: 20px;
+}
+.menu.sub
+{
+    margin-top: 1px;
+    height: auto;
+    background: #E3EAEB;
+    border: 1px solid #008EC1;
+}
+.menu
+{
+    height: 19px;
+}

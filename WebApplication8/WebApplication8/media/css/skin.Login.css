@@ -1,0 +1,40 @@
+﻿#content tr td
+{
+    vertical-align: middle;
+}
+
+.login
+{
+    border: 1px solid #008EC1;
+}
+.login .header
+{
+    background-color: #008EC1;
+    color: #fff;
+    font-size: 14px;
+}
+.login table tr td, .login table tr th
+{
+    padding: 0.5em;
+}
+
+.login .label
+{
+    text-align: right;
+}
+.login .error
+{
+    font-weight: bold;
+    text-align: center;
+    color: #f00;
+}
+.login input
+{
+    border: 1px solid #008EC1;
+    padding: 0.25em;
+}
+.login .button
+{
+    background-color: #008EC1;
+    color: #fff;
+}

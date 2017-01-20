@@ -1,0 +1,5 @@
+http://eonasdan.github.io/bootstrap-datetimepicker/
+
+http://getbootstrap.com/
+
+https://github.com/eternicode/bootstrap-datepicker

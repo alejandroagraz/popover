@@ -1,0 +1,179 @@
+﻿body
+{
+    font-size: 12px;
+    scrollbar-3dlight-color:#008EC1;
+    scrollbar-arrow-color:white;
+    scrollbar-track-color:#ACB1B2;
+    scrollbar-darkshadow-color:#008EC1;
+    scrollbar-face-color:#008EC1;
+    scrollbar-highlight-color:white;
+    scrollbar-shadow-color:white;    
+}
+h1
+{
+    font-size: 30px;
+    font-style: italic;
+}
+h2
+{
+    font-size: 20px;
+    color: #777;
+}
+h3
+{
+    clear: both;
+    font-size: 16px;
+    color: #777;
+    border-bottom: 1px solid #ACB1B2;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+.hrdiv
+{
+    line-height: 2px;
+    background: #ACB1B2;
+    width:auto;
+}
+p
+{
+    margin-bottom: 0.5em;
+}
+
+/* ************************************************************************* */
+/* ************************************************************************* */
+/* ************************************************************************* */
+
+#header
+{
+    margin: 15px 40px 15px 15px;
+    height: 66px;
+}
+
+#logo
+{
+    float: left;
+}
+#user
+{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+#title
+{
+    float: left;
+    color: #008EC1;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0 0 0 40px;
+}
+
+#wrapper
+{
+    width: 100%;    
+}
+#wrapper tr td
+{
+    height: 100%;
+    vertical-align: top;    
+}
+#wrapper tr td.content
+{
+    padding: 10px;
+}
+
+#footer
+{
+    font-size: 11px;
+    padding: 10px;
+    border-top: 1px solid #86C1FF;
+    text-align: center;
+}
+
+#menu
+{
+    border-top: 2px solid #008EC1;
+    border-bottom: 2px solid #008EC1;
+    background-color: #E3EAEB;
+    height: 19px;
+}
+
+#date
+{
+    float: right;
+    padding: 3px 2px;
+}
+
+.tabla_CrearItems
+{
+    text-align: center;
+    border: 1px solid #008EC1;
+    width: 424px;
+}
+.tabla_CrearItemsH
+{
+    background-color: #008EC1;
+    color: White;
+    font-weight: bold;
+}
+
+
+.boton
+{
+   font-size:12px;
+   font-family:Trebuchet MS,sans-serif;
+   font-weight:bold;
+   color:#FFFFFF;
+   background-color:#008EC1;
+   border-style:inset;
+   border-color:#0066CC;
+   Height:34px;
+   Width:77px; 
+   vertical-align:middle;   
+}
+
+/* ************************************************************************* */
+/* ************************************************************************* */
+/* ************************************************************************* */
+.menu
+{
+    margin-top: 0px;
+    height: 19px;
+}
+.menu.main
+{
+    padding: 0px 5px;
+    color: #666;
+}
+
+.menu.hover
+{
+    background: #008EC1;
+    color: #fff;
+}
+.menu.hover a
+{
+    color: #fff;
+}
+
+.menu.sub
+{
+    height: auto;
+    background: #E3EAEB;
+    border: 1px solid #008EC1;
+}
+.menu.subItem
+{    
+    padding: 3px;
+    background: #E3EAEB;
+    color: #666;
+    height: 22px;
+}
+.menu.subItemHover
+{
+    height: 22px;
+    padding: 3px;
+    background: #008EC1;
+    color: #fff;
+}
